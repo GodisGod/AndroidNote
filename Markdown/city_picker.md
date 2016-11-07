@@ -716,7 +716,7 @@ SideBar.java
             if (i == choose) {
                 paint.setColor(getResources().getColor(R.color.gray_deep)); 
 		
-//                paint.setFakeBoldText(true);  //加粗 
+               paint.setFakeBoldText(true);  //加粗 
 
             }
 	    
