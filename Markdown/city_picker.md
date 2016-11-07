@@ -715,9 +715,6 @@ SideBar.java
             paint.setAntiAlias(true);
             if (i == choose) {
                 paint.setColor(getResources().getColor(R.color.gray_deep)); 
-		
-               paint.setFakeBoldText(true);  //加粗 
-
             }
 	    
             float xPos = width / 2 - paint.measureText(b[i]) / 2;
