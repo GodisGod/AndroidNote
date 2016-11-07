@@ -714,9 +714,12 @@ SideBar.java
             paint.setColor(getResources().getColor(R.color.deep_blue));
             paint.setAntiAlias(true);
             if (i == choose) {
-                paint.setColor(getResources().getColor(R.color.gray_deep));
-//                paint.setFakeBoldText(true);  //加粗
+                paint.setColor(getResources().getColor(R.color.gray_deep)); 
+		
+//                paint.setFakeBoldText(true);  //加粗 
+
             }
+	    
             float xPos = width / 2 - paint.measureText(b[i]) / 2;
             float yPos = singleHeight * i + singleHeight;
             canvas.drawText(b[i], xPos, yPos, paint);
